@@ -1,0 +1,44 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #5efce8, #736efe);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.modal-content {
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+  height: 500px;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: 9px;
+  right: 13px;
+  background-color:rgba(255, 53, 53, 0.727);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color:white;
+}
+.close-modal-btn:hover{
+  background-color:rgba(255, 53, 53, 0.918) ;
+}

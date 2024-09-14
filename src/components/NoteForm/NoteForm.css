@@ -1,0 +1,64 @@
+/* NoteForm.css */
+.note-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(10px);
+    padding: 20px 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    color: rgb(244, 240, 240);
+  }
+  .note-input{
+    margin-top: 40px;
+  }
+  .note-input, .note-textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  
+  .note-input::placeholder, .note-textarea::placeholder {
+    color: rgba(255, 255, 255, 0.571);
+  }
+  
+  .note-textarea {
+    min-height: 270px;
+    resize: vertical;
+    margin-bottom: 20px;
+  }
+  
+  .character-limit {
+    text-align: right;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.85rem;
+    margin: 0;
+  }
+  
+  .note-submit-btn {
+    padding: 10px;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgb(34, 34, 34);
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .note-submit-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  
+  .note-submit-btn:active {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  

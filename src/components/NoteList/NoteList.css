@@ -1,0 +1,32 @@
+/* NoteList.css */
+.note-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+  margin-top: 120px;
+}
+.nothing{
+  text-align: center;
+  font-size: large;
+  color: rgb(35, 35, 35);
+  grid-column: span 4;
+  margin: 0;
+}
+@media (max-width: 1200px) {
+  .note-list {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (max-width: 800px) {
+  .note-list {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 500px) {
+  .note-list {
+    grid-template-columns: 1fr; 
+  }
+}

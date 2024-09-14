@@ -1,0 +1,57 @@
+/* NoteItem.css */
+.note-item {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 270px; 
+    height: 250px; 
+  }
+  
+  .note-item h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .note-item p {
+    flex-grow: 1;
+    font-size: 0.9rem;
+    overflow-y: auto; 
+    max-height: 240px;
+    margin: 0;
+  }
+  
+  .note-item-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .note-item-actions button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+   
+  }
+  .archive-btn{
+    background-color: rgb(255, 165, 46);
+  }
+  .delete{
+    background-color: rgba(255, 68, 16, 0.909);
+  }
+
+  
+  .archive-btn:hover {
+    background: rgb(208, 134, 36);
+  }
+  .delete:hover {
+    background: rgba(208, 56, 14, 0.909);
+  }
